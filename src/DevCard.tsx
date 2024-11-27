@@ -1,31 +1,8 @@
-import { useState } from "react";
-import { Card, Avatar, Text, Group, Button } from "@mantine/core";
-import { motion } from "framer-motion"; // For animations
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
 import "./DevCard.css"
 
-import {
-  IconBrandTwitter,
-  IconBrandInstagram,
-  IconBrandLinkedin,
-  IconBrandGithub,
-  IconWorld,
-} from "@tabler/icons-react";
-import { div } from "framer-motion/client";
-
 const DevCard = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const cardVariants = {
-    initial: { scale: 1, boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)" },
-    hover: {
-      scale: 1.05,
-      boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.2)",
-      transition: { duration: 0.3 },
-    },
-  };
-
+  
   return (
     <div className="profile-card " >
 
