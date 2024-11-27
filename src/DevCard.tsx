@@ -6,7 +6,7 @@ const DevCard = () => {
   return (
     <div className="profile-card " >
 
-  <img src="public/avtar.png" alt="Profile" />
+  <img src="avtar.png" alt="Profile" />
   <h2>Guillem Garcia</h2>
   <p>Fullstack Developer</p>
   <p>Data since November 2022</p>
