@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* background: linear-gradient(135deg, #3a8dff, #67b7ff); Soft gradient background */
-  background-image: url('cardimage.png');
+  background-image: url('/cardimage.png');
   display: flex;
   justify-content: center;
   align-items: center;
